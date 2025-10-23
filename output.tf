@@ -17,3 +17,8 @@ output "availability_zone" {
     value = aws_instance.webserver.availability_zone
   
 }
+
+output "aws_instance" {
+  value = aws_instance.webserver.id
+  
+}
